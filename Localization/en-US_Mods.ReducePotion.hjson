@@ -1,0 +1,14 @@
+Configs: {
+	ReducePotionConfig: {
+		PotionDelayMultiplier: {
+			Tooltip:
+				'''
+				Multiplies the Potion Sickness (healing potion cooldown) duration.
+				1.0 = vanilla duration, 2.0 = doubled duration
+				'''
+			Label: Potion Delay Multiplier
+		}
+
+		DisplayName: Reduce Potion Config
+	}
+}

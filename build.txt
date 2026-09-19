@@ -1,0 +1,4 @@
+displayName = Reduce Potion
+author = grandaxilum
+version = 0.1
+weakReferences = CalamityMod

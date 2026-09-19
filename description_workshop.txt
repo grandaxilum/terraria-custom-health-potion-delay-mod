@@ -1,0 +1,7 @@
+[b]Reduce Potion[/b]
+
+Reduces the Potion Sickness (healing potion cooldown) duration after drinking a healing potion.
+
+- Works with vanilla and Calamity potions
+- Configurable multiplier in the mod config (default: 0.8x, range: 0.1x - 2.0x)
+- Server-side config for multiplayer
