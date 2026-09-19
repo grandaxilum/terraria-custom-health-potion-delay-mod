@@ -20,20 +20,18 @@ namespace CustomHealthPotionDelay
         {
             if (Player.potionDelay > 0 && !_hasAppliedReduction)
             {
-                float multiplier =
-                    CustomHealthPotionDelay.Config?.PotionDelayMultiplier
-                    ?? 0.8f;
+                float multiplier = CustomHealthPotionDelay.Config?.PotionDelayMultiplier ?? 0.8f;
 
                 int newDelay = (int)(Player.potionDelay * multiplier);
 
-                // 1. Reduce Vanilla Potion Sickness
+                // Reduce Vanilla Potion Sickness
                 int vanillaBuffIndex = Player.FindBuffIndex(BuffID.PotionSickness);
                 if (vanillaBuffIndex != -1)
                 {
                     Player.buffTime[vanillaBuffIndex] = newDelay;
                 }
 
-                // 2. Reduce Modded Potion Sickness (Mod-Agnostic for Calamity, Thorium, etc.)
+                // Reduce Modded Potion Sickness (Mod-Agnostic for Calamity, Thorium, etc.)
                 ApplyModdedBuffReduction(multiplier);
 
                 _hasAppliedReduction = true;
