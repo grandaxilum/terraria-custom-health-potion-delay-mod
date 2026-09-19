@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ReducePotion")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+209de7e15e856898276f9618f223763714015289")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f764301f50e61961e6d9382e95278bd0ee615e7f")]
 [assembly: System.Reflection.AssemblyProductAttribute("ReducePotion")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ReducePotion")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
