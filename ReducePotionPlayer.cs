@@ -21,9 +21,11 @@ namespace ReducePotion
             if (Player.potionDelay > 0 && !_hasAppliedReduction)
             {
                 float multiplier = ReducePotion.Config?.PotionDelayMultiplier ?? 0.8f;
+                float baseMultiplier = Player.pStone
+                    ? Player.PhilosopherStoneDurationMultiplier
+                    : 1f;
 
-                int newDelay = (int)(Player.potionDelay * multiplier);
-                Player.potionDelay = newDelay;
+                int newDelay = (int)(Player.potionDelay * baseMultiplier * multiplier);
 
                 int vanillaBuffIndex = Player.FindBuffIndex(BuffID.PotionSickness);
                 if (vanillaBuffIndex != -1)
