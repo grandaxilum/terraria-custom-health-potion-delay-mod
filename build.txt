@@ -1,4 +1,3 @@
-displayName = Reduce Potion
+displayName = Custom Health Potion Delay
 author = grandaxilum
 version = 0.1
-weakReferences = CalamityMod

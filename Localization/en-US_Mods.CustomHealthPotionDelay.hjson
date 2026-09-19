@@ -1,5 +1,5 @@
 Configs: {
-	ReducePotionConfig: {
+	CustomHealthPotionDelayConfig: {
 		PotionDelayMultiplier: {
 			Tooltip:
 				'''
@@ -9,6 +9,6 @@ Configs: {
 			Label: Potion Delay Multiplier
 		}
 
-		DisplayName: Reduce Potion Config
+		DisplayName: Custom Health Potion Delay Config
 	}
 }

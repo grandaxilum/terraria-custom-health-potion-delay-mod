@@ -1,10 +1,9 @@
 using System.ComponentModel;
-using Terraria.ModLoader;
 using Terraria.ModLoader.Config;
 
-namespace ReducePotion
+namespace CustomHealthPotionDelay
 {
-    public class ReducePotionConfig : ModConfig
+    public class CustomHealthPotionDelayConfig : ModConfig
     {
         public override ConfigScope Mode => ConfigScope.ServerSide;
 

@@ -1,7 +1,7 @@
-[b]Reduce Potion[/b]
+[b]Custom Health Potion Delay[/b]
 
 Reduces the Potion Sickness (healing potion cooldown) duration after drinking a healing potion.
 
-- Works with vanilla and Calamity potions
+- Works with vanilla and any modded potions
 - Configurable multiplier in the mod config (default: 0.8x, range: 0.1x - 2.0x)
 - Server-side config for multiplayer
